@@ -1,0 +1,178 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="theme-color" content="#0b0d10">
+<meta name="color-scheme" content="dark">
+<link rel="icon" href="../favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&family=Noto+Kufi+Arabic:wght@400;500;600;700;800&display=swap">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="Northline Properties — a real estate concept case study by AHMED RIF STUDIO, focused on property discovery and enquiry conversion.">
+  <meta property="og:title" content="Northline Properties — AHMED RIF STUDIO">
+<meta property="og:description" content="Northline Properties — a real estate concept case study by AHMED RIF STUDIO, focused on property discovery and enquiry conversion.">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="AHMED RIF STUDIO">
+<meta property="og:locale" content="en_US">
+<title>Northline Properties — AHMED RIF STUDIO</title>
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body id="top" class="northline-page">
+<header class="site-header">
+  <nav class="nav container">
+    <a class="brand" href="../index.html" aria-label="AHMED RIF STUDIO"><span class="brand-mark">AR</span><span>AHMED RIF <span class="brand-dot">STUDIO</span></span></a>
+    <div class="northline-nav-actions">
+      <button id="langToggle" class="lang-btn" type="button" aria-label="Switch language">AR</button>
+      <a class="btn btn-ghost" href="../index.html#work" data-i18n="back">← Back to work</a>
+    </div>
+  </nav>
+</header>
+
+<main>
+  <section class="section northline-hero">
+    <div class="container">
+      <div class="northline-hero-grid">
+        <div class="reveal visible">
+          <span class="kicker" data-i18n="kicker">04 · REAL ESTATE</span>
+          <h1 data-i18n="heroTitle">Find a place<br><em>to move forward.</em></h1>
+          <p class="hero-text" data-i18n="heroText">A real estate concept designed to make property discovery feel clear, premium and actionable — from the first search to the enquiry.</p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#properties" data-i18n="heroPrimary">Explore properties ↘</a>
+            <a class="btn btn-ghost" href="#case-study" data-i18n="heroSecondary">View the case study</a>
+          </div>
+          <div class="hero-proof"><div><strong>06</strong><span data-i18n="proof1">Featured properties</span></div><div><strong>UX</strong><span data-i18n="proof2">Search-first flow</span></div><div><strong>CTA</strong><span data-i18n="proof3">Enquiry focused</span></div></div>
+        </div>
+        <div class="northline-hero-visual reveal visible">
+          <div class="northline-visual-copy"><small>AHMED RIF STUDIO · CONCEPT</small><strong>01 / 06</strong><h3>Find your<br><i>next address.</i></h3></div>
+          <div class="northline-building northline-building-a"></div><div class="northline-building northline-building-b"></div><div class="northline-building northline-building-c"></div>
+          <div class="northline-price"><span>FROM</span><b>€420K</b><small>CASABLANCA · MARINA</small></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="case-study" class="section northline-case">
+    <div class="container">
+      <div class="section-head"><div><span class="kicker" data-i18n="caseKicker">CASE STUDY</span><h2 data-i18n="caseTitle">From property overload<br><em>to confident decisions.</em></h2></div><p data-i18n="caseIntro">Northline explores how a real estate website can turn a large inventory into a guided journey — helping people compare, understand and enquire without friction.</p></div>
+      <div class="northline-story-grid">
+        <article class="northline-story-card"><span>01</span><small data-i18n="challengeKicker">THE CHALLENGE</small><h3 data-i18n="challengeTitle">Too many listings can create more hesitation, not more choice.</h3><p data-i18n="challengeText">The concept needed to reduce the cognitive load of browsing while still giving the brand enough space to communicate quality, location and value.</p></article>
+        <article class="northline-story-card featured"><span>02</span><small data-i18n="solutionKicker">THE SOLUTION</small><h3 data-i18n="solutionTitle">A search-first experience with strong visual hierarchy.</h3><p data-i18n="solutionText">A focused hero, useful filters, scannable property cards, detail views and a persistent enquiry path create a journey from discovery to action.</p></article>
+      </div>
+    </div>
+  </section>
+
+  <section id="properties" class="section northline-properties">
+    <div class="container">
+      <div class="section-head"><div><span class="kicker" data-i18n="propertiesKicker">PROPERTY DISCOVERY</span><h2 data-i18n="propertiesTitle">Browse without the noise.</h2></div><p data-i18n="propertiesText">The interaction below is a front-end demo: filter the inventory, open a property and send a focused enquiry.</p></div>
+      <div class="northline-filter" role="group" aria-label="Property filters">
+        <button class="active" data-filter="all" data-i18n="filterAll">All</button><button data-filter="apartment" data-i18n="filterApartment">Apartments</button><button data-filter="villa" data-i18n="filterVilla">Villas</button><button data-filter="commercial" data-i18n="filterCommercial">Commercial</button>
+      </div>
+      <div class="northline-listings" id="listingGrid">
+        <article class="northline-property" data-type="apartment" data-name="Marina Residence" data-location="Casablanca Marina" data-price="€420K" data-details="2 bedrooms · 2 bathrooms · 118 m²" data-description="A bright coastal apartment concept with generous living space and a marina-facing terrace."><div class="northline-property-image img-one"><span>01</span></div><div class="northline-property-body"><small>APARTMENT · CASABLANCA</small><h3>Marina Residence</h3><p>€420K · 118 m² · 2 bed</p><button class="text-link property-details" data-i18n="details">View property ↗</button></div></article>
+        <article class="northline-property" data-type="villa" data-name="Palm Courtyard" data-location="Palmeraie, Marrakech" data-price="€780K" data-details="4 bedrooms · 4 bathrooms · 310 m²" data-description="A private villa concept built around a quiet courtyard, outdoor living and generous entertaining space."><div class="northline-property-image img-two"><span>02</span></div><div class="northline-property-body"><small>VILLA · MARRAKECH</small><h3>Palm Courtyard</h3><p>€780K · 310 m² · 4 bed</p><button class="text-link property-details" data-i18n="details">View property ↗</button></div></article>
+        <article class="northline-property" data-type="apartment" data-name="Anfa Heights" data-location="Anfa, Casablanca" data-price="€535K" data-details="3 bedrooms · 2 bathrooms · 164 m²" data-description="A refined city apartment concept balancing privacy, daylight and proximity to Casablanca's business district."><div class="northline-property-image img-three"><span>03</span></div><div class="northline-property-body"><small>APARTMENT · CASABLANCA</small><h3>Anfa Heights</h3><p>€535K · 164 m² · 3 bed</p><button class="text-link property-details" data-i18n="details">View property ↗</button></div></article>
+        <article class="northline-property" data-type="villa" data-name="Atlas Garden House" data-location="Targa, Marrakech" data-price="€690K" data-details="3 bedrooms · 3 bathrooms · 265 m²" data-description="A warm residential concept with garden views, flexible family spaces and a calm indoor-outdoor flow."><div class="northline-property-image img-four"><span>04</span></div><div class="northline-property-body"><small>VILLA · MARRAKECH</small><h3>Atlas Garden House</h3><p>€690K · 265 m² · 3 bed</p><button class="text-link property-details" data-i18n="details">View property ↗</button></div></article>
+        <article class="northline-property" data-type="commercial" data-name="Northline Offices" data-location="Sidi Maarouf, Casablanca" data-price="€1.2M" data-details="1,050 m² · Flexible floors · Parking" data-description="A commercial concept for a growing company looking for a flexible, high-visibility office address."><div class="northline-property-image img-five"><span>05</span></div><div class="northline-property-body"><small>COMMERCIAL · CASABLANCA</small><h3>Northline Offices</h3><p>€1.2M · 1,050 m² · Office</p><button class="text-link property-details" data-i18n="details">View property ↗</button></div></article>
+        <article class="northline-property" data-type="apartment" data-name="Ocean View 18" data-location="Ain Diab, Casablanca" data-price="€610K" data-details="3 bedrooms · 2 bathrooms · 176 m²" data-description="A premium coastal apartment concept where the main value proposition is light, views and a simple path to enquiry."><div class="northline-property-image img-six"><span>06</span></div><div class="northline-property-body"><small>APARTMENT · CASABLANCA</small><h3>Ocean View 18</h3><p>€610K · 176 m² · 3 bed</p><button class="text-link property-details" data-i18n="details">View property ↗</button></div></article>
+      </div>
+    </div>
+  </section>
+
+  <section class="section northline-features">
+    <div class="container">
+      <div class="section-head"><div><span class="kicker" data-i18n="featuresKicker">KEY FEATURES</span><h2 data-i18n="featuresTitle">Designed around the decision.</h2></div><p data-i18n="featuresText">Every interaction supports a simple question: “Is this property right for me?”</p></div>
+      <div class="northline-feature-grid">
+        <article><span>01</span><h3 data-i18n="f1Title">Smart filtering</h3><p data-i18n="f1Text">Let visitors narrow the inventory by property type before they start comparing details.</p></article>
+        <article><span>02</span><h3 data-i18n="f2Title">Scannable cards</h3><p data-i18n="f2Text">Price, location, size and bedroom count are visible before a visitor opens the detail view.</p></article>
+        <article><span>03</span><h3 data-i18n="f3Title">Focused detail view</h3><p data-i18n="f3Text">A lightweight modal keeps the visitor in context while giving them enough information to act.</p></article>
+        <article><span>04</span><h3 data-i18n="f4Title">Enquiry path</h3><p data-i18n="f4Text">The property selection can flow directly into a structured enquiry instead of a generic contact page.</p></article>
+      </div>
+    </div>
+  </section>
+
+  <section class="section northline-value">
+    <div class="container">
+      <div class="northline-value-box">
+        <div><span class="kicker" data-i18n="valueKicker">BUSINESS VALUE</span><h2 data-i18n="valueTitle">A property website should help the sales conversation start sooner.</h2></div>
+        <div class="northline-value-points"><div><strong>01</strong><span data-i18n="v1">Higher-quality enquiries</span></div><div><strong>02</strong><span data-i18n="v2">Less browsing friction</span></div><div><strong>03</strong><span data-i18n="v3">Stronger premium positioning</span></div><div><strong>04</strong><span data-i18n="v4">A foundation that can scale</span></div></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="enquiry" class="section northline-enquiry">
+    <div class="container northline-enquiry-grid">
+      <div><span class="kicker" data-i18n="enquiryKicker">ENQUIRE</span><h2 data-i18n="enquiryTitle">Interested in a property?<br><em>Make the next step easy.</em></h2><p class="hero-text" data-i18n="enquiryText">This demo form shows how a selected property can carry context into the enquiry instead of making the visitor start over.</p></div>
+      <form id="enquiryForm" class="northline-form">
+        <label><span data-i18n="nameLabel">Name</span><input id="enquiryName" autocomplete="name" required placeholder="Your name"></label>
+        <label><span data-i18n="emailLabel">Email</span><input id="enquiryEmail" type="email" autocomplete="email" required placeholder="you@example.com"></label>
+        <label><span data-i18n="propertyLabel">Property</span><select id="enquiryProperty"><option>Marina Residence</option><option>Palm Courtyard</option><option>Anfa Heights</option><option>Atlas Garden House</option><option>Northline Offices</option><option>Ocean View 18</option></select></label>
+        <label><span data-i18n="messageLabel">Message</span><textarea id="enquiryMessage" rows="4" placeholder="Tell us what you are looking for..."></textarea></label>
+        <button class="btn btn-primary" type="submit" data-i18n="send">Send enquiry ↗</button><p id="enquiryResult" class="northline-result" aria-live="polite"></p>
+      </form>
+    </div>
+  </section>
+</main>
+
+<footer class="footer"><div class="container footer-row"><span>© <span id="year"></span> AHMED RIF STUDIO</span><span data-i18n="footer">Northline Properties · Concept Project</span><a href="#top" data-i18n="backTop">↑</a></div></footer>
+
+<div class="northline-modal" id="propertyModal" aria-hidden="true"><div class="northline-modal-card" role="dialog" aria-modal="true" aria-labelledby="modalTitle"><button class="northline-modal-close" id="modalClose" type="button" aria-label="Close">×</button><span class="kicker" data-i18n="modalKicker">PROPERTY</span><h2 id="modalTitle">Marina Residence</h2><p id="modalLocation"></p><strong id="modalPrice"></strong><p id="modalDetails"></p><p id="modalDescription"></p><a href="#enquiry" id="modalEnquire" class="btn btn-primary" data-i18n="modalButton">Enquire about this property ↗</a></div></div>
+
+<script>
+const t={en:{back:'← Back to work',kicker:'04 · REAL ESTATE',heroTitle:'Find a place<br><em>to move forward.</em>',heroText:'A real estate concept designed to make property discovery feel clear, premium and actionable — from the first search to the enquiry.',heroPrimary:'Explore properties ↘',heroSecondary:'View the case study',proof1:'Featured properties',proof2:'Search-first flow',proof3:'Enquiry focused',caseKicker:'CASE STUDY',caseTitle:'From property overload<br><em>to confident decisions.</em>',caseIntro:'Northline explores how a real estate website can turn a large inventory into a guided journey — helping people compare, understand and enquire without friction.',challengeKicker:'THE CHALLENGE',challengeTitle:'Too many listings can create more hesitation, not more choice.',challengeText:'The concept needed to reduce the cognitive load of browsing while still giving the brand enough space to communicate quality, location and value.',solutionKicker:'THE SOLUTION',solutionTitle:'A search-first experience with strong visual hierarchy.',solutionText:'A focused hero, useful filters, scannable property cards, detail views and a persistent enquiry path create a journey from discovery to action.',propertiesKicker:'PROPERTY DISCOVERY',propertiesTitle:'Browse without the noise.',propertiesText:'The interaction below is a front-end demo: filter the inventory, open a property and send a focused enquiry.',filterAll:'All',filterApartment:'Apartments',filterVilla:'Villas',filterCommercial:'Commercial',details:'View property ↗',featuresKicker:'KEY FEATURES',featuresTitle:'Designed around the decision.',featuresText:'Every interaction supports a simple question: “Is this property right for me?”',f1Title:'Smart filtering',f1Text:'Let visitors narrow the inventory by property type before they start comparing details.',f2Title:'Scannable cards',f2Text:'Price, location, size and bedroom count are visible before a visitor opens the detail view.',f3Title:'Focused detail view',f3Text:'A lightweight modal keeps the visitor in context while giving them enough information to act.',f4Title:'Enquiry path',f4Text:'The property selection can flow directly into a structured enquiry instead of a generic contact page.',valueKicker:'BUSINESS VALUE',valueTitle:'A property website should help the sales conversation start sooner.',v1:'Higher-quality enquiries',v2:'Less browsing friction',v3:'Stronger premium positioning',v4:'A foundation that can scale',enquiryKicker:'ENQUIRE',enquiryTitle:'Interested in a property?<br><em>Make the next step easy.</em>',enquiryText:'This demo form shows how a selected property can carry context into the enquiry instead of making the visitor start over.',nameLabel:'Name',emailLabel:'Email',propertyLabel:'Property',messageLabel:'Message',send:'Send enquiry ↗',modalKicker:'PROPERTY',modalButton:'Enquire about this property ↗',footer:'Northline Properties · Concept Project',backTop:'↑',result:'Thanks {name}. Your demo enquiry for {property} is ready. In a real project, this flow could connect to a CRM, email or WhatsApp.'},ar:{back:'العودة للمشاريع ←',kicker:'04 · العقار',heroTitle:'لقا المكان اللي<br><em>غادي تمشي معاه لقدّام.</em>',heroText:'نموذج لموقع عقاري كيركز على اكتشاف العقارات بطريقة واضحة وفاخرة وقابلة للتحويل من البحث إلى الاستفسار.',heroPrimary:'اكتشف العقارات ↘',heroSecondary:'شاهد دراسة الحالة',proof1:'عقارات مميزة',proof2:'تجربة تبدأ بالبحث',proof3:'مركز على الاستفسار',caseKicker:'دراسة الحالة',caseTitle:'من كثرة الاختيارات<br><em>إلى قرار أكثر ثقة.</em>',caseIntro:'Northline كيجرب كيفاش موقع عقاري يقدر يحوّل مخزون كبير من العقارات إلى رحلة واضحة تساعد الزائر يقارن ويفهم ويتواصل بلا تعقيد.',challengeKicker:'التحدي',challengeTitle:'كثرة العقارات تقدر تزيد التردد بدل ما تزيد الاختيار.',challengeText:'كان خاص التجربة تنقص الحمل المعرفي ديال التصفح، وفي نفس الوقت تعطي العلامة مساحة باش توضّح الجودة والموقع والقيمة.',solutionKicker:'الحل',solutionTitle:'تجربة كتبدأ بالبحث مع هرمية بصرية واضحة.',solutionText:'Hero مركز، فلاتر مفيدة، بطاقات سهلة المسح، تفاصيل سريعة ومسار واضح للاستفسار كيحوّل الاكتشاف إلى خطوة عملية.',propertiesKicker:'اكتشاف العقارات',propertiesTitle:'قلب بلا ضجيج.',propertiesText:'هاد التفاعل Demo للواجهة: فلتر العقارات، فتح التفاصيل، ومن بعد إرسال استفسار مركز.',filterAll:'الكل',filterApartment:'شقق',filterVilla:'فلل',filterCommercial:'تجاري',details:'شاهد العقار ↗',featuresKicker:'الخصائص الأساسية',featuresTitle:'مصمم حول القرار.',featuresText:'كل تفاعل كيساعد يجاوب على سؤال بسيط: واش هاد العقار مناسب ليا؟',f1Title:'فلترة ذكية',f1Text:'الزائر يقدر يحدد نوع العقار قبل ما يبدأ يقارن التفاصيل.',f2Title:'بطاقات سهلة القراءة',f2Text:'الثمن والموقع والمساحة وعدد الغرف باينين قبل فتح التفاصيل.',f3Title:'تفاصيل مركزة',f3Text:'Modal خفيف كيخلي الزائر فالسياق وكيعطيه المعلومات الكافية باش يتحرك.',f4Title:'مسار الاستفسار',f4Text:'اختيار العقار يقدر يمشي مباشرة لنموذج استفسار منظم بدل Contact عام.',valueKicker:'القيمة التجارية',valueTitle:'الموقع العقاري خاصو يقرّب بداية الحوار التجاري.',v1:'استفسارات بجودة أفضل',v2:'احتكاك أقل أثناء التصفح',v3:'تموقع أقوى للعلامة',v4:'أساس قابل للتوسع',enquiryKicker:'استفسار',enquiryTitle:'مهتم بعقار؟<br><em>خلي الخطوة الجاية سهلة.</em>',enquiryText:'هاد النموذج كيبين كيفاش العقار المختار يقدر يبقى حاضر فالسياق بدل ما الزائر يعاود من الصفر.',nameLabel:'الاسم',emailLabel:'البريد الإلكتروني',propertyLabel:'العقار',messageLabel:'الرسالة',send:'إرسال الاستفسار ↗',modalKicker:'العقار',modalButton:'استفسر على هاد العقار ↗',footer:'Northline Properties · مشروع Concept',backTop:'↑',result:'شكراً {name}. الاستفسار التجريبي ديالك على {property} واجد. فمشروع حقيقي يمكن ربط نفس الـFlow بـCRM أو البريد أو WhatsApp.'}};
+const langToggle=document.getElementById('langToggle');
+function setLanguage(lang){document.documentElement.lang=lang;document.documentElement.dir=lang==='ar'?'rtl':'ltr';document.querySelectorAll('[data-i18n]').forEach(el=>{const key=el.dataset.i18n;if(t[lang][key]!==undefined)el.innerHTML=t[lang][key]});langToggle.textContent=lang==='ar'?'EN':'AR';localStorage.setItem('ahmed-rif-lang',lang)}
+setLanguage(localStorage.getItem('ahmed-rif-lang')||'en');langToggle.addEventListener('click',()=>setLanguage(document.documentElement.lang==='ar'?'en':'ar'));
+document.getElementById('year').textContent=new Date().getFullYear();
+const filters=document.querySelectorAll('.northline-filter button'),cards=document.querySelectorAll('.northline-property');filters.forEach(btn=>btn.addEventListener('click',()=>{filters.forEach(b=>b.classList.remove('active'));btn.classList.add('active');const filter=btn.dataset.filter;cards.forEach(card=>{card.style.display=filter==='all'||card.dataset.type===filter?'block':'none'})}));
+const modal=document.getElementById('propertyModal'),modalTitle=document.getElementById('modalTitle'),modalLocation=document.getElementById('modalLocation'),modalPrice=document.getElementById('modalPrice'),modalDetails=document.getElementById('modalDetails'),modalDescription=document.getElementById('modalDescription'),enquiryProperty=document.getElementById('enquiryProperty');
+function openProperty(card){modalTitle.textContent=card.dataset.name;modalLocation.textContent=card.dataset.location;modalPrice.textContent=card.dataset.price;modalDetails.textContent=card.dataset.details;modalDescription.textContent=card.dataset.description;enquiryProperty.value=card.dataset.name;modal.classList.add('show');modal.setAttribute('aria-hidden','false')}
+function closeProperty(){modal.classList.remove('show');modal.setAttribute('aria-hidden','true')}
+document.querySelectorAll('.property-details').forEach(btn=>btn.addEventListener('click',()=>openProperty(btn.closest('.northline-property'))));document.getElementById('modalClose').addEventListener('click',closeProperty);modal.addEventListener('click',e=>{if(e.target===modal)closeProperty()});document.addEventListener('keydown',e=>{if(e.key==='Escape')closeProperty()});document.getElementById('modalEnquire').addEventListener('click',closeProperty);
+const form=document.getElementById('enquiryForm'),result=document.getElementById('enquiryResult');form.addEventListener('submit',e=>{e.preventDefault();const lang=document.documentElement.lang,name=document.getElementById('enquiryName').value.trim(),property=enquiryProperty.value;result.textContent=t[lang].result.replace('{name}',name).replace('{property}',property);result.classList.add('show')});
+</script>
+
+<script>
+/* v0.9 modal accessibility: focus return, Escape, and scroll lock. */
+(function(){
+  const modals=[...document.querySelectorAll('.gallery-modal,.room-details-modal,.northline-modal')];
+  if(!modals.length) return;
+  const state=new Map();
+  const isOpen=m=>m.classList.contains('show');
+  function sync(){
+    const any=modals.some(isOpen);
+    document.body.classList.toggle('modal-open',any);
+  }
+  modals.forEach(modal=>{
+    const close=modal.querySelector('button');
+    const focusables=()=>[...modal.querySelectorAll('button,a,input,select,textarea,[tabindex]:not([tabindex="-1"])')].filter(el=>!el.disabled);
+    const observer=new MutationObserver(()=>{
+      if(isOpen(modal)){
+        sync();
+        const previous=state.get(modal);
+        if(!previous) state.set(modal,document.activeElement);
+        (close||focusables()[0])?.focus();
+      } else {
+        sync();
+        const previous=state.get(modal);
+        if(previous && document.contains(previous)) previous.focus();
+        state.delete(modal);
+      }
+    });
+    observer.observe(modal,{attributes:true,attributeFilter:['class']});
+    modal.addEventListener('keydown',e=>{
+      if(e.key==='Escape'){
+        if(close) close.click();
+        return;
+      }
+      if(e.key!=='Tab') return;
+      const items=focusables(); if(!items.length) return;
+      const first=items[0],last=items[items.length-1];
+      if(e.shiftKey && document.activeElement===first){e.preventDefault();last.focus();}
+      else if(!e.shiftKey && document.activeElement===last){e.preventDefault();first.focus();}
+    });
+  });
+})();
+</script>
+</body>
+</html>
