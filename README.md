@@ -1,4 +1,4 @@
-# AHMED RIF STUDIO Portfolio — v1.2.2
+# AHMED RIF STUDIO Portfolio — v1.3.0 Light Preview
 
 A bilingual Arabic/English portfolio for AHMED RIF STUDIO, built with semantic HTML, responsive CSS and vanilla JavaScript. The portfolio presents four distinct concept projects with substantive case studies and interactive demo flows.
 
@@ -17,7 +17,7 @@ AHMED RIF STUDIO presents websites as business tools, not templates. The portfol
 - Branded SVG favicon across the portfolio and project pages.
 - Custom `404.html` fallback for static hosts.
 - Open Graph site metadata and page-level descriptions.
-- Dark color-scheme hints for browser UI consistency.
+- Light Premium preview theme on the main portfolio homepage for improved readability and visitor comfort.
 
 ## Production polish
 - Google Fonts are loaded from document-level stylesheets instead of CSS `@import`, allowing the browser to discover the font resource earlier.
